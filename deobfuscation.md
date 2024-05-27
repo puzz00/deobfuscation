@@ -306,3 +306,9 @@ Next we clean up the code and analyze what it is doing.
 We use `curl` to test the `/keys.php` backend resource and by using the string which is sent to us in the server response we are able to obtain the final flag :smiley:
 
 ![js32](/images/32.png)
+
+## Conclusion
+
+These notes have gone over how we can obfuscate and deobfuscate javascript code in several simple ways.
+
+It is important to analyze javascript code we find on web apps we are testing - hopefully we will be able to now handle code which has been obfuscated in the ways we have covered :smiley:
